@@ -1,0 +1,113 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    margin:0px;
+    padding:0px;
+    background-image: url('bgimg.jpg');
+}
+.left{
+display:inline-block;
+/* border: 2px solid red; */
+position:absolute;
+left:34px;
+top:20px;
+}
+.left img{
+    width:85px;
+}
+.left div{
+    line-height: 0px;
+     font-size: 23px;
+    text-align: left;
+}
+.mid{
+display:block;
+width:63%;
+margin: 20px auto;
+/* border:2px solid green; */
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display:inline-block;
+    font-size:25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration:none;
+    /* text decoration none to remove the line under link */
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+text-decoration:underline;
+/* color:grey; */
+}
+.right{
+position:absolute;
+right:34px;
+top: 20px;
+display:inline-block;
+/* border: 2px solid yellow; */
+}
+.btn{
+    margin: 0px 9px;
+    color:white;
+    background-color: black;
+    padding: 4px 14px;
+    border:2px solid grey;
+    border-radius: 10px;
+    font-size:15px;
+    cursor:pointer;
+}
+.btn:hover{
+    color:blue;
+    
+}
+.container{
+    border: 2px solid white;
+    margin: 68px 60px;
+    padding: 76px 2px;
+    width:40%;
+    border-radius: 12px;
+}
+.container h1{
+    text-align:center;
+    
+}
+
+.formgroup input{
+text-align:center;
+display:block;
+width:327px;
+margin:12px auto;
+padding:10px;
+border:2px solid black;
+font-size: 15px;
+border-radius: 12px;
+}
+.container button{
+    display:block;
+    width:65%;
+    margin: 20px auto;
+
+}
+.form-ele{
+    outline: none;
+}
+
+.cal{
+    float:right;
+    height: 100px;
+    width: 400px;
+}
+
+.contact{ 
+     margin-top: 150px;
+     margin-left: 900px;
+}
+
+.about{ 
+    margin-top: 150px;
+    margin-left: 900px;
+}
